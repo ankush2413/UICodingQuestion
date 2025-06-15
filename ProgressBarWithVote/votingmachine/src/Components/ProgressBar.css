@@ -8,5 +8,6 @@
 
 .inner-div{
     background-color: #2196F3;
-    width: 40%;
+    height: 24px;
+    transition: width 0.3s ease;
 }

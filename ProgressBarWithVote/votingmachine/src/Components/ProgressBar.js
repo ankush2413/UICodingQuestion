@@ -5,8 +5,8 @@ import './ProgressBar.css'
 const ProgressBar = (props) => {
     return (
         <div className='outer-div'>
-            <div className='inner-div'>
-                {props.name} : 70%
+            <div className='inner-div' style={{width:`${props.width}%`}}>
+                {props.name} : {props.width} 
             </div>
         </div>
     )
