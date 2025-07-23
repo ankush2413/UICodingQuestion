@@ -11,10 +11,10 @@ const Vote = (props)=>{
     return (
         <>
         <div style={{display:'flex', justifyContent:'center', gap:'10px',margin:'5px'}}>
-            <div style={{ maxWidth:'600px',flexGrow:'1'}}>
+            <div>
                 <ProgressBar name={props.name} width={props.width}/>
             </div>
-            <div style={{}}>
+            <div>
                 <button onClick={()=>handleOnClick(props.index)}>Vote</button>
             </div>
         </div>

@@ -3,11 +3,12 @@
     border-style:groove;
     border-radius: 8px;
     overflow: hidden;
-    overflow-y: hidden;
+    width: 600px;
 }
 
 .inner-div{
     background-color: #2196F3;
     height: 24px;
     transition: width 0.3s ease;
+    white-space: pre;
 }

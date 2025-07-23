@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { useState } from 'react';
 import Vote from './Components/Vote';
 
@@ -12,7 +10,7 @@ function App() {
   }
 
   return (
-    <div className='container'>
+    <div>
       {
         Names.map((name,index)=>( <Vote name={name} index={index} votes={votes} setVotes={setVotes} width={getPercentage(index)} /> ))
       }
